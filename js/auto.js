@@ -1,8 +1,8 @@
 function auto($obj,interT,fadeT,$title,$click) {//轮播图
 	var iNow = 0
 	var timer 
-	auto()
-	function auto() {
+	autoP()
+	function autoP() {
 		timer = setInterval(function() {//自动执行
 			change()
 		}, interT)
